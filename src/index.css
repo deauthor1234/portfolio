@@ -17,7 +17,7 @@
 }
 
 .nav-link:hover.nav-link::after {
-    @apply w-[20px];
+    @apply w-[20px] bg-black;
 }
 
 .nav-link.active::after {

@@ -2,12 +2,14 @@ import profile from "../assets/images/profile.jpg"
 
 const Hero = () => {
     return (
-        <header className="flex justify-center h-[100vh] items-center">
-            <div className="flex justify-between max-w-[1200px] gap-8">
+        <header className="flex justify-center h-[100vh]">
+            <div className="flex justify-between max-w-[1200px] gap-8 items-center">
                 <div className="">
-                    <h1 className="text-7xl font-extrabold">Oladapo Authority</h1>
-                    <h3 className="text-[1.1rem] my-4">I am a passionate web developer (frontend) having +3 years of experience in the field. I build fully responsive and cross-browser compactible websites.</h3>
-                    <div className="flex">
+                    <h2 className="font-bold text-3xl">Hello!</h2>
+                    <h1 className="text-7xl font-extrabold mt-4 mb-6">I'm Authority</h1>
+                    <h3 className="font-bold text-4xl">Frontend Web Developer</h3>
+                    <h2 className="text-[1.1rem] mt-4 mb-6 font-medium">I am a passionate web developer (frontend) having more than 3 years of experience in the field. I build modern, fully responsive and cross-browser compactible websites.</h2>
+                    <div className="flex font-extrabold text-2xl">
                         <p>X</p>
                         <p>X</p>
                         <p>X</p>
@@ -15,8 +17,8 @@ const Hero = () => {
                         <p>X</p>
                     </div>
                 </div>
-                <div className="min-w-[25rem] min-h-[25rem] rounded-l-[50px] relative overflow-hidden">
-                    <img src={profile} alt="profile" className="size-full object-cover absolute" />
+                <div className="min-w-[25rem] min-h-[25rem] rounded-l-[50%] rounded-br-[50%] relative overflow-hidden">
+                    <img src={profile} alt="profile" className="size-full object-cover absolute saturate-0" />
                 </div>
             </div>
         </header>
