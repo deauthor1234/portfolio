@@ -2,10 +2,10 @@ const Navbar = () => {
     return (
         <nav className="container-wrapper z-[9999] fixed w-full bg-white">
             <div className="container w-full flex justify-between items-center py-4">
-                <div>
+                <div data-aos="fade-down">
                     <p className="font-extrabold text-2xl">dev-author.</p>
                 </div>
-                <ul className="flex gap-6">
+                <ul className="flex gap-6" data-aos="fade-down">
                     <li className="active nav-link">
                         <a href="#hero">Home</a>
                     </li>

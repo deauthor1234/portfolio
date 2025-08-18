@@ -54,8 +54,29 @@ section {
     @apply bg-gray-950 w-[20px];
 }
 
+.scroll-dwn-btn {
+    @apply animate-bounce;
+}
+
+.stack-track {
+    animation: scroll 30s linear infinite; 
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+}
+
+.stack-track .logo {
+    @apply mx-24;
+}
+
 .service {
-    @apply flex justify-center flex-col bg-white p-6 h-full rounded-4xl shadow-xl;
+    @apply flex hover:bg-black hover:text-white cursor-default justify-center flex-col bg-white p-6 h-full rounded-4xl shadow-xl;
 }
 
 .service svg {
