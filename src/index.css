@@ -4,6 +4,34 @@
     font-family: "Segoe UI";
 }
 
+html::-webkit-scrollbar {
+    @apply bg-white w-3;
+}
+
+html::-webkit-scrollbar-thumb {
+    @apply bg-black;
+}
+
+.container-wrapper {
+    @apply flex justify-center;
+}
+
+.container {
+    @apply max-w-[1080px];
+}
+
+section {
+    @apply m-16;
+}
+
+.section-heading {
+    @apply font-bold text-3xl relative w-fit pb-3;
+}
+
+.section-heading::after {
+    @apply content-[""] h-1 w-[50%] bg-black absolute left-0 bottom-0;
+}
+
 .nav-link {
     @apply duration-200 cursor-pointer hover:text-gray-950 hover:text-[1.15rem] text-gray-500 font-medium relative h-fit py-1;
 }
