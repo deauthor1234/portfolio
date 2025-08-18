@@ -11,7 +11,9 @@ A modern, fully responsive portfolio website built for showcasing my skills, wor
 
 ## ✨ Highlights
 -🚀 Responsive developer portfolio built with React + TailwindCSS.
+
 -🎨 Features smooth scroll animations and dark/light theme toggle.
+
 -🌍 Deployed with Netlify for fast global delivery.
 
 ---
