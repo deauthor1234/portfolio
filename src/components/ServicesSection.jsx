@@ -4,7 +4,7 @@ import { BiSend } from "react-icons/bi"
 
 const ServicesSection = () => {
     return (
-        <section id="services" className="container-wrapper py-24 bg-gray-100">
+        <section id="services" className="container-wrapper mt-[6rem] py-24 bg-gray-100">
             <div className="container">
                 <h2 className="section-heading" data-aos="fade-right">WHAT CAN I DO?</h2>
                 <div className="grid grid-cols-3 gap-10 mt-16 items-start mb-14">
@@ -26,7 +26,7 @@ const ServicesSection = () => {
                     <div className="service" data-aos="fade-down" data-aos-delay="600">
                         <BiSend />
                         <h3>Email Template</h3>
-                        <p>Having strong experience in using HTML & CSS, I can create nice looking engaging email templates for businesses and indiiduals that can be sent to customers.</p>
+                        <p>Having strong experience in using HTML & CSS, I can create nice looking engaging email templates for businesses and indiiduals that can be sent to customers and newsletter subscribers.</p>
                     </div>
                 </div>
                 <Btn content="Want a website? Contact" />

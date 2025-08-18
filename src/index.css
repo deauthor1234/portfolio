@@ -22,12 +22,8 @@ html::-webkit-scrollbar-thumb {
     @apply max-w-[1200px];
 }
 
-section {
-    @apply my-[6rem];
-}
-
 .section-heading {
-    @apply font-bold text-3xl relative w-fit pb-3 mb-6;
+    @apply font-bold text-3xl relative w-fit pb-3;
 }
 
 .section-heading::after {
@@ -86,3 +82,44 @@ section {
 .service h3 {
     @apply text-2xl font-medium mt-6 mb-4;
 }
+
+.project .image {
+    @apply overflow-hidden w-full h-[20rem] relative;
+}
+
+.project .image .project-img {
+    @apply object-cover object-center absolute size-full duration-300;
+}
+
+.project:hover .project-img {
+    @apply scale-110 brightness-75;
+}
+
+.project .image .project-img-link {
+    @apply opacity-0 pointer-events-none absolute top-[50%] left-[50%] translate-[-50%] text-white text-5xl;
+}
+
+.project:hover .project-img-link {
+    @apply opacity-100 pointer-events-auto;
+}
+
+.project h2 {
+    @apply text-2xl font-bold mt-3;
+}
+
+.project p {
+    @apply font-medium my-4;
+}
+
+.project .tags {
+    @apply flex gap-4 mt-4 mb-6;
+}
+
+.project .tags span {
+    @apply border-2 rounded-full text-sm font-medium px-2.5;
+}
+
+.project .btns {
+    @apply flex gap-4 justify-between;
+}
+
