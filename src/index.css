@@ -19,7 +19,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .container {
-    @apply max-w-[1200px];
+    @apply max-w-[1280px];
 }
 
 .section-heading {
@@ -31,11 +31,11 @@ html::-webkit-scrollbar-thumb {
 }
 
 .nav-link {
-    @apply duration-200 cursor-pointer hover:text-gray-950 hover:text-[1.15rem] text-gray-500 font-medium relative h-fit py-1;
+    @apply duration-200 cursor-pointer hover:text-gray-950 hover:text-xl text-gray-500 font-medium relative h-fit py-1;
 }
 
 .nav-link.active {
-    @apply text-gray-950 text-[1.15rem] pb-1;
+    @apply text-gray-950 text-xl pb-1;
 }
 
 .nav-link::after {
@@ -71,6 +71,14 @@ html::-webkit-scrollbar-thumb {
     @apply mx-24;
 }
 
+.about-tech-stack span {
+    @apply border px-3 py-1 flex items-center;
+}
+
+.about-tech-stack span svg {
+    @apply text-2xl mr-2;
+}
+
 .service {
     @apply flex hover:bg-black hover:text-white cursor-default justify-center flex-col bg-white p-6 h-full rounded-4xl shadow-xl;
 }
@@ -84,7 +92,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project .image {
-    @apply overflow-hidden w-full h-[20rem] relative;
+    @apply overflow-hidden w-full brightness-95 h-[20rem] relative rounded-3xl;
 }
 
 .project .image .project-img {
@@ -112,7 +120,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project .tags {
-    @apply flex gap-4 mt-4 mb-6;
+    @apply flex gap-4 mt-4 mb-6 flex-wrap;
 }
 
 .project .tags span {

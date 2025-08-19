@@ -1,26 +1,48 @@
+import { useEffect, useState } from "react";
+
+const sections = ["intro", "about", "services", "works", "contact"];
+
 const Navbar = () => {
+    const [active, setActive] = useState("intro");
+
+    useEffect(() => {
+        const sectionElements = sections.map(id => document.getElementById(id));
+
+        const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setActive(entry.target.id);
+                }
+            });
+        },
+        { threshold: 0.3 }
+        );
+
+        sectionElements.forEach(el => el && observer.observe(el));
+
+        return () => {
+            sectionElements.forEach(el => el && observer.unobserve(el));
+        };
+    }, []); 
+
     return (
-        <nav className="container-wrapper z-[9999] fixed w-full bg-white">
+        <nav className="container-wrapper z-[9999] fixed w-full bg-white" data-aos="fade-down">
             <div className="container w-full flex justify-between items-center py-4">
-                <div data-aos="fade-down">
-                    <p className="font-extrabold text-2xl">dev-author.</p>
+                <div>
+                    <p className="font-extrabold text-3xl">dev-author.</p>
                 </div>
-                <ul className="flex gap-6" data-aos="fade-down">
-                    <li className="active nav-link">
-                        <a href="#hero">Home</a>
+                <ul className="flex gap-6">
+                {sections.map(id => (
+                    <li key={id}>
+                        <a
+                        href={`#${id}`}
+                        className={`nav-link ${active === id && "active"}`}
+                        >
+                        {id.charAt(0).toUpperCase() + id.slice(1)}
+                        </a>
                     </li>
-                    <li className="nav-link">
-                        <a href="#about">About Me</a>
-                    </li>
-                    <li className="nav-link">
-                        <a href="#services">My Services</a>
-                    </li>
-                    <li className="nav-link">
-                        <a href="#works">Works</a>
-                    </li>
-                    <li className="nav-link">
-                        <a href="#contact">Contact Me</a>
-                    </li>
+                ))}
                 </ul>
             </div>
         </nav>

@@ -3,13 +3,13 @@ import { FaArrowDown, FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaWha
 
 const Hero = () => {
     return (
-        <header className="container-wrapper relative h-[100vh] bg-linear-to-b from-transparent to-gray-200" id="hero">
+        <header className="container-wrapper relative h-[100vh] bg-linear-to-b from-transparent to-gray-200" id="intro">
             <div className="flex justify-between container gap-16 items-center">
                 <div>
                     <h2 className="font-bold text-2xl" data-aos="fade-right">Hello!</h2>
                     <h1 className="text-8xl font-extrabold mt-4 mb-6" data-aos="fade-left" data-aos-delay="200">I'm Authority</h1>
                     <h3 className="font-bold text-4xl" data-aos="fade-right" data-aos-delay="400">Frontend Web Developer</h3>
-                    <h2 className="text-[1.1rem] mt-4 mb-14 font-medium" data-aos="fade-left" data-aos-delay="600">I am a passionate web developer (front-end) having more than 3 years of experience in the field. I build modern, fully responsive and cross-browser compactible websites.</h2>
+                    <h2 className="text-[1.1rem] mt-4 mb-14 font-medium italic" data-aos="fade-left" data-aos-delay="600">I craft modern, responsive web experiences that blend clean design with powerful functionality.</h2>
                     <div className="flex font-extrabold text-4xl gap-4">
                         <a href="https://www.instagram.com/authority.dev/" data-aos="zoom-in" data-aos-delay="800"><FaInstagramSquare /></a>
                         <a href="https://github.com/deauthor1234" data-aos="zoom-in" data-aos-delay="1000"><FaGithubSquare /></a>

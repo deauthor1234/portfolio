@@ -7,6 +7,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import TechStacks from "./components/TechStacks"
 import WorksSection from "./components/WorksSection"
+import ContactSection from "./components/ContactSection"
 
 const App = () => {
   useEffect(() => {
@@ -25,8 +26,9 @@ const App = () => {
       <TechStacks />
       <AboutSection />
       <ServicesSection />
-      <TechStacks />
+      <TechStacks dark />
       <WorksSection />
+      <ContactSection />
     </>
   )
 }
