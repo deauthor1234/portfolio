@@ -18,7 +18,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project1}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>CarRental</h2>
-                        <p>A modern, fully responsive and cross-browser compactible car rental website.</p>
+                        <p>CarRental is a modern, fully responsive and cross-browser compactible car rental website with sleek sliders and simple UI.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -36,7 +36,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project2}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>StreamLab</h2>
-                        <p>A responsive movie streaming website with modern feel and smooth scroll between sections.</p>
+                        <p>StreamLab is a responsive movie streaming website, inspired by an online template, with modern feel and smooth scroll between sections.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -54,7 +54,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project3}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>FoodKing</h2>
-                        <p>A responsive restaurant landing page website created from an online design, with simple, interactive sections, delicious menu, and contact information.</p>
+                        <p>FoodKing is a responsive restaurant landing page website inspired by an online design, with delicious menu, and contact information.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -72,7 +72,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project4}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>Furnitue</h2>
-                        <p>Responsive furniture landing page built and designed to highlight stylish interiors with a clean, user-friendly interface.</p>
+                        <p>Furnitue is a responsive furniture landing page built and designed to highlight stylish interiors with a clean, user-friendly interface.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -90,7 +90,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project5}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>Online Resume</h2>
-                        <p>A minimalistic, one-page responsive online résumé website with sidebar built for showcasing personal profile, skills, experience, and portfolio projects.</p>
+                        <p>A one-page responsive online résumé website with sidebar built for showcasing personal profile, skills, experience, and portfolio projects.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
