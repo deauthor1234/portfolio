@@ -86,11 +86,11 @@ const WorksSection = () => {
                     </div>
                     <div className="project" data-aos="fade-up" data-aos-delay="400">
                         <div className="image">
-                            <img className="project-img" src={project5} alt="project5-image" />
+                            <img className="project-img left-[-17%] diff" src={project5} alt="project5-image" />
                             <a className="project-img-link" href={project5}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>Online Resume</h2>
-                        <p>A minimalistic, one-page responsive online résumé website built for showcasing personal profile, skills, experience, and portfolio projects.</p>
+                        <p>A minimalistic, one-page responsive online résumé website with sidebar built for showcasing personal profile, skills, experience, and portfolio projects.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>

@@ -92,11 +92,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project .image {
-    @apply overflow-hidden w-full brightness-95 h-[20rem] relative rounded-3xl;
+    @apply overflow-hidden w-full brightness-95 h-[20rem] relative;
 }
 
 .project .image .project-img {
     @apply object-cover object-center absolute size-full duration-300;
+}
+
+.project .image .project-img.diff {
+    @apply scale-200 object-contain;
 }
 
 .project:hover .project-img {
