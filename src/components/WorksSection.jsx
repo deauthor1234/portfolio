@@ -36,7 +36,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project2}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>StreamLab</h2>
-                        <p>A responsive movie streaming website with modern feel and smooth scroll between sections.</p>
+                        <p>StreamLab responsive movie streaming website with modern feel and smooth scroll between sections.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -54,7 +54,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project3}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>FoodKing</h2>
-                        <p>A responsive restaurant landing page website created from an online design, with simple, interactive sections, delicious menu, and contact information.</p>
+                        <p>FoodKing is a responsive restaurant landing page website created from an online design, with simple, interactive sections, delicious menu, and contact information.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -72,7 +72,7 @@ const WorksSection = () => {
                             <a className="project-img-link" href={project4}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>Furnitue</h2>
-                        <p>Responsive furniture landing page built and designed to highlight stylish interiors with a clean, user-friendly interface.</p>
+                        <p>Furnitue is a responsive furniture landing page built and designed to highlight stylish interiors with a clean, user-friendly interface.</p>
                         <div className="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
