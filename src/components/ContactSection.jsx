@@ -1,5 +1,5 @@
 import { BiMailSend } from "react-icons/bi"
-import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
 
 const ContactSection = () => {
     return (
@@ -17,7 +17,7 @@ const ContactSection = () => {
                         </div>
                     </div>    
                 </div>
-                <form action="post" className="w-full" data-aos="zoom-in">
+                <form name="contact" className="w-full" data-aos="zoom-in" netlify>
                     <div className="flex gap-6 w-full">
                         <input className="w-full bg-white px-6 py-3 border-2" type="text" name="name" placeholder="Name *" required />
                         <input className="w-full bg-white px-6 py-3 border-2" type="email" name="email" placeholder="Email *" required />
