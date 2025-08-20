@@ -30,7 +30,7 @@ const WorksSection = () => {
                             <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/car-rental" />
                         </div>
                     </div>
-                    <div className="project" data-aos="fade-down" data-aos-delay="200">
+                    <div className="project" data-aos="fade-up" data-aos-delay="200">
                         <div className="image">
                             <img className="project-img" src={project2} alt="project2-image" />
                             <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project2}><FaExternalLinkAlt /></a>
@@ -66,7 +66,7 @@ const WorksSection = () => {
                             <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/foodking" />
                         </div>
                     </div>
-                    <div className="project" data-aos="fade-down" data-aos-delay="200">
+                    <div className="project" data-aos="fade-up" data-aos-delay="200">
                         <div className="image">
                             <img className="project-img" src={project4} alt="project4-image" />
                             <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project4}><FaExternalLinkAlt /></a>

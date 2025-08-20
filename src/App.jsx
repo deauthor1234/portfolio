@@ -8,6 +8,7 @@ import "aos/dist/aos.css"
 import TechStacks from "./components/TechStacks"
 import WorksSection from "./components/WorksSection"
 import ContactSection from "./components/ContactSection"
+import Footer from "./components/Footer"
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const App = () => {
       <TechStacks dark />
       <WorksSection />
       <ContactSection />
+      <Footer />
     </>
   )
 }
