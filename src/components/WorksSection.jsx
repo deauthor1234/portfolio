@@ -15,7 +15,7 @@ const WorksSection = () => {
                     <div className="project" data-aos="fade-up">
                         <div className="image">
                             <img className="project-img" src={project1} alt="project1-image" />
-                            <a className="project-img-link" href={project1}><FaExternalLinkAlt /></a>
+                            <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project1}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>CarRental</h2>
                         <p>CarRental is a modern, fully responsive and cross-browser compactible car rental website with sleek sliders and simple UI.</p>
@@ -33,7 +33,7 @@ const WorksSection = () => {
                     <div className="project" data-aos="fade-down" data-aos-delay="200">
                         <div className="image">
                             <img className="project-img" src={project2} alt="project2-image" />
-                            <a className="project-img-link" href={project2}><FaExternalLinkAlt /></a>
+                            <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project2}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>StreamLab</h2>
                         <p>StreamLab is a responsive movie streaming website, inspired by an online template, with modern feel and smooth scroll between sections.</p>
@@ -51,7 +51,7 @@ const WorksSection = () => {
                     <div className="project" data-aos="fade-up" data-aos-delay="400">
                         <div className="image">
                             <img className="project-img" src={project3} alt="project4-image" />
-                            <a className="project-img-link" href={project3}><FaExternalLinkAlt /></a>
+                            <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project3}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>FoodKing</h2>
                         <p>FoodKing is a responsive restaurant landing page website inspired by an online design, with delicious menu, and contact information.</p>
@@ -69,7 +69,7 @@ const WorksSection = () => {
                     <div className="project" data-aos="fade-down" data-aos-delay="200">
                         <div className="image">
                             <img className="project-img" src={project4} alt="project4-image" />
-                            <a className="project-img-link" href={project4}><FaExternalLinkAlt /></a>
+                            <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project4}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>Furnitue</h2>
                         <p>Furnitue is a responsive furniture landing page built and designed to highlight stylish interiors with a clean, user-friendly interface.</p>
@@ -87,7 +87,7 @@ const WorksSection = () => {
                     <div className="project" data-aos="fade-up" data-aos-delay="400">
                         <div className="image">
                             <img className="project-img left-[-17%] diff" src={project5} alt="project5-image" />
-                            <a className="project-img-link" href={project5}><FaExternalLinkAlt /></a>
+                            <a className="project-img-link" target="_blank" rel="noopener noreferrer" href={project5}><FaExternalLinkAlt /></a>
                         </div>
                         <h2>Online Resume</h2>
                         <p>A one-page responsive online résumé website with sidebar built for showcasing personal profile, skills, experience, and portfolio projects.</p>
