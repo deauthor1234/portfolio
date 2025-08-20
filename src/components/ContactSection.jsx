@@ -1,5 +1,5 @@
 import { BiMailSend } from "react-icons/bi"
-import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa"
 
 const ContactSection = () => {
     return (
@@ -17,7 +17,15 @@ const ContactSection = () => {
                         </div>
                     </div>    
                 </div>
-                <form name="contact" className="w-full" data-aos="zoom-in" netlify>
+                <form name="contact" className="w-full" data-aos="zoom-in" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
+
+                    <p hidden>
+                        <label>
+                        Don’t fill this out: <input name="bot-field" />
+                        </label>
+                    </p>
+
                     <div className="flex gap-6 w-full">
                         <input className="w-full bg-white px-6 py-3 border-2" type="text" name="name" placeholder="Name *" required />
                         <input className="w-full bg-white px-6 py-3 border-2" type="email" name="email" placeholder="Email *" required />
