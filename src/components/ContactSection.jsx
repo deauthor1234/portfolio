@@ -1,9 +1,9 @@
 import { BiMailSend } from "react-icons/bi"
-import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
 
 const ContactSection = () => {
     return (
-        <section className="container-wrapper bg-gray-100 py-24 mt-24" id="contact">
+        <section className="container-wrapper bg-gray-800 py-24 mt-24" id="contact">
             <div className="container flex gap-10">
                 <div className="w-full">
                     <h2 className="section-heading mb-8" data-aos="flip-right">HOW YOU CAN CONTACT ME?</h2>
@@ -22,7 +22,7 @@ const ContactSection = () => {
 
                     <p hidden>
                         <label>
-                        Don’t fill this out: <input name="bot-field" />
+                        Don't fill this out: <input name="bot-field" />
                         </label>
                     </p>
 
