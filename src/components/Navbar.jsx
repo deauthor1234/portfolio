@@ -30,7 +30,7 @@ const Navbar = () => {
         <nav className="container-wrapper z-[9999] fixed w-full bg-white" data-aos="fade-down">
             <div className="container w-full flex justify-between items-center py-4">
                 <div>
-                    <p className="font-extrabold text-3xl">dev-author.</p>
+                    <a href="/" className="font-extrabold text-3xl">dev-author.</a>
                 </div>
                 <ul className="flex gap-6">
                 {sections.map(id => (
