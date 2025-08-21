@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 
 const sections = ["intro", "about", "services", "works", "contact"];
 
@@ -35,12 +36,13 @@ const Navbar = () => {
                 <ul className="flex gap-6">
                 {sections.map(id => (
                     <li key={id}>
-                        <a
-                        href={`#${id}`}
+                        <Link
+                        smooth={true}
+                        to={`${id}`}
                         className={`nav-link ${active === id && "active"}`}
                         >
                         {id.charAt(0).toUpperCase() + id.slice(1)}
-                        </a>
+                        </Link>
                     </li>
                 ))}
                 </ul>
