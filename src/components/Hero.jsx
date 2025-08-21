@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import profile from "../assets/images/profile.jpg"
 import { FaArrowDown, FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaWhatsappSquare } from 'react-icons/fa';
 
@@ -21,9 +22,9 @@ const Hero = () => {
                     <img src={profile} alt="profile" className="size-full object-cover absolute saturate-0" data-aos="zoom-out" />
                 </div>
             </div>
-            <div className="scroll-dwn-btn size-16 flex justify-center items-center shadow-2xl text-xl rounded-full absolute bg-white bottom-8 left-[50%] translate-x-[-50%]">
+            <Link to="about" smooth={true} className="scroll-dwn-btn size-16 flex justify-center items-center shadow-2xl text-xl rounded-full absolute bg-white bottom-8 left-[50%] translate-x-[-50%]">
                 <FaArrowDown />
-            </div>
+            </Link>
         </header>
     )
 }

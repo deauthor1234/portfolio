@@ -1,11 +1,12 @@
 import { FaBriefcase } from "react-icons/fa"
 import aboutImage from "../assets/images/profile2.jpg"
 import Btn from "./Btn"
+import { Element } from "react-scroll"
 import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
 
 const AboutSection = () => {
     return (
-        <section className="container-wrapper my-[6rem]" id="about">
+        <Element className="container-wrapper my-[6rem]" id="about">
             <div className="container flex justify-between items-center gap-16">
                 <div className="overflow-hidden rounded-l-4xl min-w-[30rem]" data-aos="fade-right">
                     <img className="saturate-0" src={aboutImage} alt="Preview" />
@@ -31,7 +32,7 @@ const AboutSection = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </Element>
     )
 }
 
