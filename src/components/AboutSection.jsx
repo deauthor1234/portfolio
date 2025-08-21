@@ -1,7 +1,7 @@
 import { FaBriefcase } from "react-icons/fa"
 import aboutImage from "../assets/images/profile2.jpg"
 import Btn from "./Btn"
-import { Element } from "react-scroll"
+import { Link, Element } from "react-scroll"
 import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
 
 const AboutSection = () => {
@@ -27,8 +27,12 @@ const AboutSection = () => {
                         <span data-aos="zoom-in" data-aos-delay="800"><BiLogoNetlify /> Netlify</span>
                     </div>
                     <div className="flex gap-4" data-aos="fade-up">
-                        <Btn dark={true} content="Hire Me" href="#contact" />
-                        <Btn icon={<FaBriefcase />} content="See Projects" href="#works" />
+                        <Link to="contact">
+                            <Btn dark={true} content="Hire Me" />
+                        </Link>
+                        <Link to="works">
+                            <Btn icon={<FaBriefcase />} content="See Projects" />
+                        </Link>
                     </div>
                 </div>
             </div>

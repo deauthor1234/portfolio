@@ -1,6 +1,7 @@
 import { FaCode, FaGlobe, FaLaptopCode, FaSitemap } from "react-icons/fa"
 import Btn from "./Btn"
 import { BiSend } from "react-icons/bi"
+import { Link } from "react-scroll"
 
 const ServicesSection = () => {
     return (
@@ -34,7 +35,9 @@ const ServicesSection = () => {
                         <p>Using proficient knowledge of CSS and TailwindCSS, I can transform websites or webpages with poor layout structure and outdated design into a modern look and feel.</p>
                     </div>
                 </div>
-                <Btn content="Want a website? Contact" href="#contact" />
+                <Link to="contact">
+                    <Btn content="Want a website? Contact" />
+                </Link>
             </div>
         </section>
     )
