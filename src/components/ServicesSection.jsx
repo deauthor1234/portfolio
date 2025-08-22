@@ -35,7 +35,7 @@ const ServicesSection = () => {
                         <p>Using proficient knowledge of CSS and TailwindCSS, I can transform websites or webpages with poor layout structure and outdated design into a modern look and feel.</p>
                     </div>
                 </div>
-                <Link to="contact">
+                <Link to="contact" className="inline-flex cursor-pointer">
                     <Btn content="Want a website? Contact" />
                 </Link>
             </div>

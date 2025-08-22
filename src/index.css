@@ -50,10 +50,6 @@ html::-webkit-scrollbar-thumb {
     @apply bg-gray-950 w-[20px];
 }
 
-.scroll-dwn-btn {
-    @apply animate-bounce;
-}
-
 .stack-track {
     animation: scroll 30s linear infinite; 
 }
@@ -80,15 +76,19 @@ html::-webkit-scrollbar-thumb {
 }
 
 .service {
-    @apply flex hover:bg-black hover:text-white cursor-default justify-center flex-col bg-white p-6 h-full rounded-4xl shadow-xl;
+    @apply flex border bg-white rounded-3xl border-gray-200 hover:bg-black hover:text-white cursor-default justify-center items-center flex-col p-6 h-full;
 }
 
 .service svg {
-    @apply text-8xl;
+    @apply text-7xl;
 }
 
 .service h3 {
-    @apply text-2xl font-medium mt-6 mb-4;
+    @apply text-2xl text-center font-medium mt-6 mb-4;
+}
+
+.service p {
+    @apply text-center;
 }
 
 .project .image {
