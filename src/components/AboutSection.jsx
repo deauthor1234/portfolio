@@ -1,17 +1,17 @@
 import { FaBriefcase, FaEnvelope } from "react-icons/fa"
-import aboutImage from "../assets/images/profile2.jpg"
 import Btn from "./Btn"
 import { Link } from "react-scroll"
-import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
+import { DiPhotoshop } from 'react-icons/di';
+import { BiCodeCurly, BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
 
 const AboutSection = () => {
     return (
-        <section className="container-wrapper my-[6rem]" id="about">
-            <div className="container flex justify-between items-center gap-16">
+        <section className="container-wrapper" id="about">
+            <div className="container flex mt-[6rem] justify-between items-center gap-16">
                 <div className="overflow-hidden rounded-l-4xl min-w-[30rem]" data-aos="fade-right">
-                    <img className="saturate-0" src={aboutImage} alt="Preview" />
+                    <BiCodeCurly className="size-full" />
                 </div>
-                <div className="">
+                <div>
                     <h2 className="section-heading" data-aos="fade-down">WHO AM I?</h2>
                     <p className="mt-6 mb-6" data-aos="fade" data-aos-delay="200">I am Oladapo Authority, I base in PortHarcourt, Rivers State, Nigeria. I am an ethusiastic frontend web developer with over 3 years of experience in building projects and learning to code. I build fully responsive and cross-browser compactible websites with modern design for small businesses and I can also work on frontend related projects.</p>
                     <h3 className="text-xl font-bold" data-aos="fade-right">Tech Stack & Tools:</h3>
@@ -24,7 +24,8 @@ const AboutSection = () => {
                         <span data-aos="zoom-in" data-aos-delay="600"><BiLogoGit /> Git</span>
                         <span data-aos="zoom-in" data-aos-delay="700"><BiLogoGithub /> Github</span>
                         <span data-aos="zoom-in" data-aos-delay="800"><BiLogoFigma /> Figma</span>
-                        <span data-aos="zoom-in" data-aos-delay="800"><BiLogoNetlify /> Netlify</span>
+                        <span data-aos="zoom-in" data-aos-delay="900"><BiLogoNetlify /> Netlify</span>
+                        <span data-aos="zoom-in" data-aos-delay="1000"><DiPhotoshop /> Adobe Photoshop</span>
                     </div>
                     <div className="flex gap-4" data-aos="fade-up">
                         <Link to="contact">
