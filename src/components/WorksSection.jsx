@@ -4,14 +4,14 @@ import project2 from "../assets/images/project2.png"
 import project3 from "../assets/images/project3.png"
 import project4 from "../assets/images/project4.png"
 import project5 from "../assets/images/project5.jpeg"
-import { FaCode, FaExternalLinkAlt, FaGlobe } from "react-icons/fa"
+import { FaGithub, FaExternalLinkAlt, FaGlobe } from "react-icons/fa"
 
 const WorksSection = () => {
     return (
         <section className="container-wrapper my-[6rem]" id="works">
             <div className="container">
                 <h2 className="section-heading mb-14" data-aos="fade-down">WHAT HAVE I DONE?</h2>
-                <div className="grid grid-cols-3 gap-14">
+                <div className="grid grid-cols-2 gap-14">
                     <div className="project" data-aos="fade-up">
                         <div className="image">
                             <img className="project-img" src={project1} alt="project1-image" />
@@ -27,7 +27,7 @@ const WorksSection = () => {
                         </div>
                         <div className="btns">
                             <Btn content={"Demo"} icon={<FaGlobe />} href="https://carrentalportfolio.netlify.app" dark />
-                            <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/car-rental" />
+                            <Btn content={"Code"} icon={<FaGithub />} href="https://github.com/deauthor1234/car-rental" />
                         </div>
                     </div>
                     <div className="project" data-aos="fade-up" data-aos-delay="200">
@@ -45,7 +45,7 @@ const WorksSection = () => {
                         </div>
                         <div className="btns">
                             <Btn content={"Demo"} icon={<FaGlobe />} href="https://streamlabproject.netlify.app" dark />
-                            <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/streamlab" />
+                            <Btn content={"Code"} icon={<FaGithub />} href="https://github.com/deauthor1234/streamlab" />
                         </div>
                     </div>
                     <div className="project" data-aos="fade-up" data-aos-delay="400">
@@ -63,7 +63,7 @@ const WorksSection = () => {
                         </div>
                         <div className="btns">
                             <Btn content={"Demo"} icon={<FaGlobe />} href="https://foodkingproject.netlify.app" dark />
-                            <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/foodking" />
+                            <Btn content={"Code"} icon={<FaGithub />} href="https://github.com/deauthor1234/foodking" />
                         </div>
                     </div>
                     <div className="project" data-aos="fade-up" data-aos-delay="200">
@@ -81,7 +81,7 @@ const WorksSection = () => {
                         </div>
                         <div className="btns">
                             <Btn content={"Demo"} icon={<FaGlobe />} href="https://furnitue.netlify.app/" dark />
-                            <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/furnitue" />
+                            <Btn content={"Code"} icon={<FaGithub />} href="https://github.com/deauthor1234/furnitue" />
                         </div>
                     </div>
                     <div className="project" data-aos="fade-up" data-aos-delay="400">
@@ -100,7 +100,7 @@ const WorksSection = () => {
                         </div>
                         <div className="btns">
                             <Btn content={"Demo"} icon={<FaGlobe />} href="https://onlineresumeproject.netlify.app/" dark />
-                            <Btn content={"Code"} icon={<FaCode />} href="https://github.com/deauthor1234/online-resume" />
+                            <Btn content={"Code"} icon={<FaGithub />} href="https://github.com/deauthor1234/online-resume" />
                         </div>
                     </div>
                 </div>
