@@ -10,8 +10,8 @@ const Work = ({ demoHref, des, img, desOnly, repoHref, tags, title, addClass }) 
             <h2>{title}</h2>
             <p>{!desOnly && title} {des}</p>
             <div className="tags">
-                {tags.map((tag) => (
-                    <div className="tags">
+                {tags.map((tag, id) => (
+                    <div className="tags" key={id}>
                         <span>{tag}</span>
                     </div>
                 ))}
