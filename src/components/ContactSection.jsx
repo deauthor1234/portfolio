@@ -1,20 +1,16 @@
-import { BiMailSend } from "react-icons/bi"
-import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
+import { BiLogoGithub, BiLogoInstagramAlt, BiMailSend, BiSolidEnvelope, BiSolidPhone } from "react-icons/bi"
 
 const ContactSection = () => {
     return (
         <section className="container-wrapper bg-gray-100 py-16 mt-24" id="contact">
             <div className="container flex gap-10">
                 <div className="w-full">
-                    <h2 className="section-heading mb-8" data-aos="flip-right">HOW YOU CAN CONTACT ME?</h2>
-                    <div className="text-[1.1rem] font-medium">
-                        <h3 data-aos="fade-left">Email: <span className="text-gray-800">dimejioladapo573@gmail.com</span></h3>
-                        <h3 data-aos="fade-right" className="mt-4 mb-8">Phone: <span className="text-gray-800">+234 916 314 7101</span></h3>
-                        <div className="flex font-extrabold text-4xl gap-6">
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/authority.dev/" data-aos="zoom-in" data-aos-delay="800"><FaInstagram /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/deauthor1234" data-aos="zoom-in" data-aos-delay="1000"><FaGithub /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://web.facebook.com/profile.php?id=100086251411134" data-aos="zoom-in" data-aos-delay="1200"><FaFacebook /></a>
-                        </div>
+                    <h2 className="section-heading mb-12" data-aos="flip-right">HOW YOU CAN CONTACT ME?</h2>
+                    <div className="flex flex-col text-4xl font-medium gap-4">
+                        <a className="flex items-center gap-2 w-fit" target="_blank" rel="noopener noreferrer" href="mailto:dimejioladapo573@gmail.com" data-aos="zoom-in" data-aos-delay="600"><BiSolidEnvelope /> <span className="text-lg">Email: dimejioladapo573@gmail.com</span></a>
+                        <a className="flex items-center gap-2 w-fit" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/authority.dev/" data-aos="zoom-in" data-aos-delay="800"><BiLogoInstagramAlt /> <span className="text-lg">Instagram: authority.dev</span></a>
+                        <a className="flex items-center gap-2 w-fit" target="_blank" rel="noopener noreferrer" href="https://github.com/deauthor1234" data-aos="zoom-in" data-aos-delay="1000"><BiLogoGithub /> <span className="text-lg">Github: deauthor1234</span></a>
+                        <a className="flex items-center gap-2 w-fit" target="_blank" rel="noopener noreferrer" href="tel: +2349163147101" data-aos="zoom-in" data-aos-delay="1200"><BiSolidPhone /> <span className="text-lg">Phone: +234 916 314 7101</span></a>
                     </div>    
                 </div>
                 <form name="contact" className="w-full" data-aos="zoom-in" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
