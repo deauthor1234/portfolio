@@ -1,6 +1,6 @@
 import { FaCode, FaGlobe, FaLaptopCode, FaSitemap } from "react-icons/fa"
 import Btn from "./Btn"
-import { BiSend } from "react-icons/bi"
+import { BiMailSend } from "react-icons/bi"
 import { Link } from "react-scroll"
 
 const ServicesSection = () => {
@@ -25,7 +25,7 @@ const ServicesSection = () => {
                         <p>Primarily, I am a frontend web developer, I can collaborate with other developers and designers to build more complex projects as a team.</p>
                     </div>
                     <div className="service" data-aos="fade-down" data-aos-delay="600">
-                        <BiSend />
+                        <BiMailSend />
                         <h3>Email Template</h3>
                         <p>Having strong experience in using HTML & CSS, I can create nice looking engaging email templates for businesses and indiiduals that can be sent to customers and newsletter subscribers.</p>
                     </div>
