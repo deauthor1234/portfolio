@@ -99,20 +99,20 @@ html::-webkit-scrollbar-thumb {
     @apply object-cover object-center absolute size-full duration-300;
 }
 
-.project .image .project-img.diff {
-    @apply scale-200 object-contain;
+.project.diff .image .project-img {
+    @apply scale-130 object-contain left-[-10%];
 }
 
 .project:hover .project-img {
     @apply scale-110 brightness-75;
 }
 
-.project:hover .project-img.diff {
-    @apply scale-[215%] brightness-75;
+.project.diff:hover .project-img {
+    @apply scale-140 brightness-75;
 }
 
 .project .image .project-img-link {
-    @apply opacity-0 pointer-events-none absolute top-[50%] left-[50%] translate-[-50%] text-white text-5xl;
+    @apply opacity-0 cursor-pointer pointer-events-none absolute top-[50%] left-[50%] translate-[-50%] text-white text-5xl;
 }
 
 .project:hover .project-img-link {
