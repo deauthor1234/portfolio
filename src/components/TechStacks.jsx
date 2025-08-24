@@ -1,4 +1,5 @@
 import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
+import { DiPhotoshop } from "react-icons/di"
 
 const TechStacks = ({ dark }) => {
     const classes = "inline-flex stack-track text-7xl py-4 border-b border-gray-200"
@@ -15,6 +16,7 @@ const TechStacks = ({ dark }) => {
                 <BiLogoGithub className="logo" />
                 <BiLogoFigma className="logo" />
                 <BiLogoNetlify className="logo" />
+                <DiPhotoshop className="logo" />
                 <BiLogoHtml5 className="logo" />
                 <BiLogoCss3 className="logo" />
                 <BiLogoJavascript className="logo" />
@@ -24,6 +26,7 @@ const TechStacks = ({ dark }) => {
                 <BiLogoGithub className="logo" />
                 <BiLogoFigma className="logo" />
                 <BiLogoNetlify className="logo" />
+                <DiPhotoshop className="logo" />
             </div>
         </div>
     )
