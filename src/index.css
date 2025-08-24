@@ -140,7 +140,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .contact-medium {
-    @apply border-2 border-black rounded-full px-3 bg-white hover:bg-black hover:text-white py-1 flex items-center gap-2 w-fit;
+    @apply border-2 cursor-pointer border-black rounded-full px-3 bg-white hover:bg-black hover:text-white py-1 flex items-center gap-2 w-fit;
 }
 
 .contact-medium span {
