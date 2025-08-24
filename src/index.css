@@ -139,3 +139,15 @@ html::-webkit-scrollbar-thumb {
     @apply flex gap-4 justify-between;
 }
 
+.contact-medium {
+    @apply border-2 border-black rounded-full px-3 bg-white hover:bg-black hover:text-white py-1 flex items-center gap-2 w-fit;
+}
+
+.contact-medium span {
+    @apply text-lg;
+}
+
+.contact-medium svg:nth-child(2) {
+    @apply text-xl;
+}
+
