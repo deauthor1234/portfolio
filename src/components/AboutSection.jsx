@@ -28,12 +28,8 @@ const AboutSection = () => {
                         <span data-aos="zoom-in" data-aos-delay="1000"><DiPhotoshop /> Adobe Photoshop</span>
                     </div>
                     <div className="flex gap-4" data-aos="fade-up">
-                        <Link to="contact">
-                            <Btn icon={<FaEnvelope />} dark={true} content="Hire Me" />
-                        </Link>
-                        <Link to="works">
-                            <Btn icon={<FaBriefcase />} content="See Projects" />
-                        </Link>
+                        <Btn to="contact" icon={<FaEnvelope />} dark={true} content="Hire Me" />
+                        <Btn to="works" icon={<FaBriefcase />} content="See Projects" />
                     </div>
                 </div>
             </div>
