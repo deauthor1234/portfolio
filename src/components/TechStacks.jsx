@@ -2,7 +2,7 @@ import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJa
 import { DiPhotoshop } from "react-icons/di"
 
 const TechStacks = ({ dark }) => {
-    const classes = "inline-flex stack-track text-7xl py-4 border-b border-gray-200"
+    const classes = "inline-flex stack-track text-7xl max-[1025px]:text-6xl py-4 border-b border-gray-200"
 
     return (
         <div className="overflow-hidden whitespace-nowrap w-full">

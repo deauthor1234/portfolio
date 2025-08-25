@@ -10,7 +10,7 @@ const WorksSection = () => {
         <section className="container-wrapper my-[6rem]" id="works">
             <div className="container">
                 <h2 className="section-heading mb-14" data-aos="fade-down">WHAT HAVE I DONE?</h2>
-                <div className="grid grid-cols-2 gap-14">
+                <div className="grid grid-cols-2 max-[1025px]:gap-8 gap-14">
                     <Work 
                         img={project1} 
                         title="CarRental" 

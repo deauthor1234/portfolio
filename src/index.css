@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .stack-track .logo {
-    @apply mx-24;
+    @apply mx-24 max-[1025px]:mx-16;
 }
 
 .about-tech-stack span {

@@ -8,7 +8,7 @@ const AboutSection = () => {
     return (
         <section className="container-wrapper" id="about">
             <div className="container flex mt-[6rem] justify-between items-center gap-16">
-                <div className="max-lg:hidden overflow-hidden rounded-l-4xl size-full max-w-[30rem]" data-aos="fade-right">
+                <div className="max-[1025px]:hidden overflow-hidden rounded-l-4xl size-full max-w-[30rem]" data-aos="fade-right">
                     <BiCodeCurly className="size-full" />
                 </div>
                 <div className="size-full">
