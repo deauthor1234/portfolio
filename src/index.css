@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-* {
+*::after,
+*::before {
     font-family: "Segoe UI";
     scroll-behavior: smooth;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html::-webkit-scrollbar {
@@ -19,7 +21,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .container {
-    @apply max-w-[1280px];
+    @apply max-w-[1280px] mx-8;
 }
 
 .section-heading {
