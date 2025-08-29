@@ -13,7 +13,7 @@ import Footer from "./components/Footer"
 const App = () => {
   useEffect(() => {
     Aos.init({
-      disable: "phone",
+      disable: "mobile",
       duration: 700,
       easing: "ease-out-cubic",
       once: false
