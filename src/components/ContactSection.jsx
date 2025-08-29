@@ -4,7 +4,7 @@ import ContactMedium from "./ContactMedium"
 const ContactSection = () => {
     return (
         <section className="container-wrapper bg-gray-100 py-16 mt-24" id="contact">
-            <div className="container flex gap-10">
+            <div className="container flex gap-10 max-lg:flex-col">
                 <div className="w-full">
                     <h2 className="section-heading mb-12" data-aos="flip-right">HOW YOU CAN CONTACT ME?</h2>
                     <div className="flex flex-wrap text-2xl font-medium gap-4">
@@ -14,7 +14,7 @@ const ContactSection = () => {
                         <ContactMedium delay="1200" href="https://github.com/deauthor1234" icon={<BiLogoGithub />} label="Github" />
                     </div>    
                 </div>
-                <form name="contact" className="w-full" data-aos="zoom-in" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact" className="w-full max-lg:mt-5" data-aos="zoom-in" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
 
                     <p hidden>
