@@ -4,8 +4,8 @@ import { BiDownArrowAlt, BiLogoGithub, BiLogoInstagram, BiMailSend } from "react
 
 const Hero = () => {
     return (
-        <header className="container-wrapper items-center relative h-[100vh] min-h-[40rem] max-h-[1080px] max-[940px]:h-fit bg-linear-to-b from-transparent to-gray-200" id="intro">
-            <div className="flex justify-between items-center container gap-10">
+        <header className="container-wrapper items-center relative h-[100vh] min-[950px]:min-h-[40rem] min-[950px]:max-h-[1080px] max-[940px]:h-fit bg-linear-to-b from-transparent to-gray-200" id="intro">
+            <div className="flex justify-between items-center max-[950px]:py-28 container gap-10">
                 <div className="size-full">
                     <h2 className="font-bold text-2xl max-[1200px]:text-xl" data-aos="fade-right">Hello!</h2>
                     <h1 className="text-8xl font-extrabold mt-2 mb-6 max-[1200px]:text-7xl" data-aos="fade-left" data-aos-delay="200">I'm Authority</h1>
@@ -17,7 +17,7 @@ const Hero = () => {
                         <a className="group" href="mailto:dimejioladapo573@gmail.com" data-aos="zoom-in" data-aos-delay="1200"><BiMailSend className="group-hover:scale-115 duration-150" /></a>
                     </div>
                 </div>
-                <div className="min-w-[25rem] min-h-[25rem] max-[1200px]:min-w-[22rem] max-[1200px]:min-h-[22rem] rounded-b-4xl overflow-hidden relative rotate-y-180">
+                <div className="max-[950px]:hidden min-w-[25rem] min-h-[25rem] max-[1200px]:min-w-[22rem] max-[1200px]:min-h-[22rem] rounded-b-4xl overflow-hidden relative rotate-y-180">
                     <img src={profile2} alt="profile" className="size-full object-cover absolute" data-aos="zoom-out" />
                 </div>
             </div>
