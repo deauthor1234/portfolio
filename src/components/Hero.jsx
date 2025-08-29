@@ -17,8 +17,8 @@ const Hero = () => {
                         <a className="group" href="mailto:dimejioladapo573@gmail.com" data-aos="zoom-in" data-aos-delay="1200"><BiMailSend className="group-hover:scale-115 duration-150" /></a>
                     </div>
                 </div>
-                <div className="min-w-[25rem] min-h-[25rem] rounded-r-4xl overflow-hidden relative rotate-y-180">
-                    <img src={profile2} alt="profile" className="size-full object-cover absolute scale-125" data-aos="zoom-out" />
+                <div className="min-w-[25rem] min-h-[25rem] max-[1200px]:min-w-[22rem] max-[1200px]:min-h-[22rem] rounded-b-4xl overflow-hidden relative rotate-y-180">
+                    <img src={profile2} alt="profile" className="size-full object-cover absolute" data-aos="zoom-out" />
                 </div>
             </div>
             <Link to="about" smooth={true} className="animate-bounce cursor-pointer size-16 flex justify-center items-center shadow-2xl text-xl rounded-full absolute bg-white bottom-4 left-[50%] translate-x-[-50%]">
