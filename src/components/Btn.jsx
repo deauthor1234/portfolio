@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa"
 import { Link } from "react-scroll";
 
 const Btn = ({ dark, content, href, icon, to }) => {
-    const btnClass = "px-10 py-4 text-[1.05rem] font-bold rounded-full border-2 flex items-center gap-2 cursor-pointer duration-200 group w-fit";
+    const btnClass = "px-10 py-4 text-[1.05rem] font-bold rounded-full border-2 border-black flex items-center gap-2 cursor-pointer duration-200 group w-fit";
 
     return (
         <Link onClick={() => window.open(href)} to={to} target="_blank" rel="noopener noreferrer" className={
