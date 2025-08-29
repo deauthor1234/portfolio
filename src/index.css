@@ -122,7 +122,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project h2 {
-    @apply text-2xl font-bold mt-3;
+    @apply text-2xl font-bold mt-4;
 }
 
 .project p {
@@ -130,7 +130,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project .tags {
-    @apply flex gap-4 mt-4 mb-6 flex-wrap;
+    @apply flex gap-4 mb-6 flex-wrap;
 }
 
 .project .tags span {
