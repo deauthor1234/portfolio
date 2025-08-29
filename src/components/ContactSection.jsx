@@ -23,7 +23,7 @@ const ContactSection = () => {
                         </label>
                     </p>
 
-                    <div className="flex gap-6 w-full">
+                    <div className="flex max-[640px]:flex-col gap-6 w-full">
                         <input className="w-full bg-white px-6 py-3 border-2" type="text" name="name" placeholder="Name *" required />
                         <input className="w-full bg-white px-6 py-3 border-2" type="email" name="email" placeholder="Email *" required />
                     </div>
