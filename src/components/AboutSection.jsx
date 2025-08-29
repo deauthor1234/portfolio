@@ -27,7 +27,7 @@ const AboutSection = () => {
                         <span data-aos="zoom-in" data-aos-delay="900"><BiLogoNetlify /> Netlify</span>
                         <span data-aos="zoom-in" data-aos-delay="1000"><DiPhotoshop /> Adobe Photoshop</span>
                     </div>
-                    <div className="flex gap-4" data-aos="fade-up">
+                    <div className="flex gap-4 max-[506px]:flex-col" data-aos="fade-up">
                         <Btn to="contact" icon={<FaEnvelope />} dark={true} content="Hire Me" />
                         <Btn to="works" icon={<FaBriefcase />} content="See Projects" />
                     </div>
