@@ -3,11 +3,11 @@ import ContactMedium from "./ContactMedium"
 
 const ContactSection = () => {
     return (
-        <section className="container-wrapper bg-gray-100 py-16 mt-24" id="contact">
+        <section className="container-wrapper bg-gray-100 py-16" id="contact">
             <div className="container flex gap-10 max-lg:flex-col">
                 <div className="w-full">
-                    <h2 className="section-heading mb-12" data-aos="flip-right">HOW YOU CAN CONTACT ME?</h2>
-                    <div className="flex flex-wrap text-2xl font-medium gap-4">
+                    <h2 className="section-heading mb-12 max-[426px]:mb-10" data-aos="flip-right">HOW TO CONTACT ME?</h2>
+                    <div className="flex flex-wrap text-2xl font-medium gap-4 ">
                         <ContactMedium delay="600" href="mailto:dimejioladapo573@gmail.com" icon={<BiSolidEnvelope />} label="Email" />
                         <ContactMedium delay="800" href="tel: +2349163147101" icon={<BiSolidPhone />} label="Phone" />
                         <ContactMedium delay="1000" href="https://www.instagram.com/authority.dev" icon={<BiLogoInstagramAlt />} label="Instagram" />

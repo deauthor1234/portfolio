@@ -7,9 +7,9 @@ import Work from "./Work"
 
 const WorksSection = () => {
     return (
-        <section className="container-wrapper my-[6rem]" id="works">
+        <section className="container-wrapper" id="works">
             <div className="container">
-                <h2 className="section-heading mb-14" data-aos="fade-down">WHAT HAVE I DONE?</h2>
+                <h2 className="section-heading mb-14 max-[426px]:mb-10" data-aos="fade-down">WHAT HAVE I DONE?</h2>
                 <div className="grid grid-cols-2 max-[950px]:grid-cols-1 max-[1025px]:gap-x-8 max-[1025px]:gap-y-12 gap-14">
                     <Work 
                         img={project1} 

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-    font-family:'Trebuchet MS';
+    font-family:'Segoe UI';
     scroll-behavior: smooth;
 }
 
@@ -17,6 +17,10 @@ html::-webkit-scrollbar-thumb {
     @apply flex justify-center;
 }
 
+section.container-wrapper {
+    @apply mt-[6rem] max-[426px]:mt-16;
+}
+
 .container {
     @apply max-w-[1280px] mx-8 max-[426px]:mx-6 max-[321px]:mx-4;
 }
@@ -30,7 +34,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .navbar {
-    @apply max-[769px]:translate-y-[-100%] max-[769px]:opacity-0 max-[769px]:duration-500;
+    @apply max-[769px]:translate-y-[-100%] max-[769px]:duration-500;
 }
 
 .navbar.show {
@@ -38,15 +42,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .nav-link {
-    @apply max-[769px]:py-4 duration-200 cursor-pointer hover:text-gray-950 max-[769px]:hover:bg-gray-300 max-[769px]:text-black max-[769px]:px-2 text-gray-500 font-medium relative h-fit py-1;
+    @apply max-[769px]:text-xl max-[769px]:py-4 duration-200 cursor-pointer max-[769px]:hover:bg-gray-300 max-[769px]:text-black max-[769px]:px-2 text-gray-500 font-medium relative h-fit py-1;
 }
 
 .nav-link.active {
-    @apply text-black min-[769px]:text-xl min-[769px]:pb-1 max-[769px]:bg-gray-400 max-[769px]:text-white text-xl;
+    @apply text-black max-[769px]:text-2xl min-[769px]:pb-1 max-[769px]:bg-black max-[769px]:text-white text-xl;
 }
 
 .nav-link .border {
-    @apply duration-200 h-[3px] max-[769px]:hidden scale-x-0 w-[20px] hover:w-full bg-gray-500 hover:bg-black absolute left-[50%] translate-x-[-50%] bottom-0;
+    @apply duration-200 h-[3px] max-[769px]:hidden scale-x-0 w-[20px] hover:w-full bg-gray-500 absolute left-[50%] translate-x-[-50%] bottom-0;
 }
 
 .nav-link.active .border,
@@ -96,7 +100,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project .image {
-    @apply overflow-hidden w-full brightness-95 h-[20rem] relative;
+    @apply overflow-hidden w-full brightness-95 h-[20rem] max-[426px]:h-56 relative;
 }
 
 .project .image .project-img {
@@ -124,7 +128,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project h2 {
-    @apply text-2xl font-bold mt-4;
+    @apply text-2xl max-[426px]:text-xl font-bold mt-4;
 }
 
 .project p {
@@ -140,7 +144,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project .btns {
-    @apply flex flex-wrap gap-4 justify-between;
+    @apply flex flex-wrap gap-4 max-[426px]:gap-2 justify-between;
 }
 
 .contact-medium {
