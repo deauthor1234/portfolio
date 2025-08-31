@@ -1,11 +1,8 @@
 @import "tailwindcss";
 
-*::after,
-*::before {
-    font-family: "Segoe UI";
+* {
+    font-family:'Trebuchet MS';
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
 }
 
 html::-webkit-scrollbar {
@@ -21,11 +18,11 @@ html::-webkit-scrollbar-thumb {
 }
 
 .container {
-    @apply max-w-[1280px] mx-8 max-[426px]:mx-6;
+    @apply max-w-[1280px] mx-8 max-[426px]:mx-6 max-[321px]:mx-4;
 }
 
 .section-heading {
-    @apply font-bold text-3xl relative w-fit pb-3;
+    @apply font-bold text-3xl max-[426px]:text-2xl relative w-fit pb-3;
 }
 
 .section-heading::after {
@@ -71,7 +68,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .stack-track .logo {
-    @apply mx-24 max-[1025px]:mx-16;
+    @apply mx-24 max-[1025px]:mx-16 max-[426px]:mx-12;
 }
 
 .about-tech-stack span {
@@ -83,15 +80,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .service {
-    @apply flex border bg-white rounded-3xl border-gray-200 hover:bg-black hover:text-white cursor-default justify-center items-center flex-col p-6 h-full;
+    @apply flex border bg-white rounded-3xl border-gray-200 hover:bg-black hover:text-white cursor-default justify-center items-center flex-col p-6 max-[426px]:p-5 h-full;
 }
 
 .service svg {
-    @apply text-7xl;
+    @apply text-7xl max-[426px]:text-6xl;
 }
 
 .service h3 {
-    @apply text-2xl text-center font-medium mt-6 mb-4;
+    @apply text-2xl max-[426px]:text-xl text-center font-medium mt-6 mb-4;
 }
 
 .service p {

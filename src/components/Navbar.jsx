@@ -32,9 +32,9 @@ const Navbar = () => {
 
     return (
         <nav className="container-wrapper z-[9999] fixed w-full bg-white" data-aos="fade-down">
-            <div className="container w-full flex justify-between items-center py-4">
+            <div className="container w-full flex justify-between items-center py-4 max-[426px]:py-3">
                 <div>
-                    <a href="/" className="font-extrabold text-[1.65rem]">dev-author.</a>
+                    <a href="/" className="font-extrabold text-[1.65rem] max-[426px]:text-[1.5rem]">dev-author.</a>
                 </div>
                 <BiMenu className="text-3xl cursor-pointer min-[769px]:hidden" onClick={() => !navVisibility ? setNavVisibility(true) : setNavVisibility(false)} />
                 <div className={`navbar max-[769px]:-z-10 max-[769px]:pointer-events-none bg-[#fff5] flex gap-6 max-[769px]:border-b max-[769px]:border-gray-300 max-[769px]:gap-0 max-[769px]:absolute max-[769px]:top-[100%] max-[769px]:backdrop-blur-md max-[769px]:w-full max-[769px]:text-center max-[769px]:right-0 max-[769px]:flex-col ${navVisibility && "show"}`}>
