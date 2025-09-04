@@ -107,16 +107,8 @@ section.container-wrapper {
     @apply object-cover object-center absolute size-full duration-300;
 }
 
-.project.diff .image .project-img {
-    @apply scale-130 object-contain left-[-10%];
-}
-
 .project:hover .project-img {
     @apply scale-110 brightness-75;
-}
-
-.project.diff:hover .project-img {
-    @apply scale-140 brightness-75;
 }
 
 .project .image .project-img-link {

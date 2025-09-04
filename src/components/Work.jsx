@@ -1,8 +1,8 @@
 import { FaExternalLinkAlt, FaGithub, FaGlobe } from "react-icons/fa"
 import Btn from "./Btn"
-const Work = ({ demoHref, des, img, desOnly, repoHref, tags, title, addClass }) => {
+const Work = ({ demoHref, des, img, desOnly, repoHref, tags, title }) => {
     return (
-        <div className={`project ${addClass}`} data-aos="fade-up">
+        <div className="project" data-aos="fade-up">
             <div className="image">
                 <img className="project-img" src={img} alt={`${img}-image`} />
                 <a className="project-img-link" onClick={() => window.open(img)}><FaExternalLinkAlt /></a>
