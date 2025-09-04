@@ -13,7 +13,7 @@ const AboutSection = () => {
                 </div>
                 <div className="size-full">
                     <h2 className="section-heading" data-aos="fade-down">WHO AM I?</h2>
-                    <p className="my-6" data-aos="fade" data-aos-delay="200">I am Oladapo Authority, I base in PortHarcourt, Rivers State, Nigeria. I am an ethusiastic frontend web developer with over 3 years of experience in building projects and learning to code. I build fully responsive and cross-browser compactible websites with modern design for small businesses and I can also work on frontend related projects.</p>
+                    <p className="my-6" data-aos="fade" data-aos-delay="200">I am Oladapo Authority, I currently base in PortHarcourt, Rivers State, Nigeria. I am an ethusiastic frontend web developer with over 3 years of experience in building projects and learning to code. I build fully responsive and cross-browser compactible websites with modern design for small businesses and I can also work on frontend related projects.</p>
                     <h3 className="text-xl font-bold" data-aos="fade-right">Tech Stack & Tools:</h3>
                     <div className="flex mt-4 mb-8 font-medium about-tech-stack gap-4 flex-wrap">
                         <span data-aos="zoom-in" data-aos-delay="100"><BiLogoHtml5 /> Html5</span>
