@@ -1,6 +1,5 @@
 import { FaBriefcase, FaEnvelope } from "react-icons/fa"
 import Btn from "./Btn"
-import { Link } from "react-scroll"
 import { DiPhotoshop } from 'react-icons/di';
 import { BiCodeCurly, BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
 
