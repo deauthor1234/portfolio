@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 
 * {
-    font-family:'Segoe UI';
+    font-family: 'Futura Md BT';
     scroll-behavior: smooth;
 }
 
@@ -22,7 +23,7 @@ section.container-wrapper {
 }
 
 .container {
-    @apply max-w-[1280px] mx-8 max-[426px]:mx-6 max-[321px]:mx-4;
+    @apply max-w-[1280px] mx-8 max-[426px]:mx-4 max-[321px]:mx-3;
 }
 
 .section-heading {
@@ -42,11 +43,11 @@ section.container-wrapper {
 }
 
 .nav-link {
-    @apply max-[769px]:text-xl max-[769px]:py-4 duration-200 cursor-pointer max-[769px]:hover:bg-gray-300 max-[769px]:text-black max-[769px]:px-2 text-gray-500 font-medium relative h-fit py-1;
+    @apply text-lg max-[769px]:py-4 duration-200 cursor-pointer max-[769px]:hover:bg-gray-300 max-[769px]:text-black max-[769px]:px-2 text-gray-500 font-medium relative h-fit py-1;
 }
 
 .nav-link.active {
-    @apply text-black max-[769px]:text-2xl min-[769px]:pb-1 max-[769px]:bg-black max-[769px]:text-white text-xl;
+    @apply text-black min-[769px]:pb-1 max-[769px]:bg-black max-[769px]:text-white text-xl;
 }
 
 .nav-link .border {

@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <nav className="container-wrapper z-[9999] fixed w-full bg-white" data-aos="fade-down" onMouseLeave={() => setNavVisibility(false)}>
             <div className="max-w-[1280px] mx-8 max-[769px]:mx-0 w-full flex justify-between items-center py-4 max-[769px]:py-0">
-               <div className="max-[769px]:px-8 max-[426px]:px-6 max-[321px]:px-4 w-full flex items-center justify-between bg-white max-[769px]:py-3 max-[426px]:py-2">
+               <div className="max-[769px]:px-8 max-[426px]:px-6 max-[321px]:px-4 w-full flex items-center justify-between bg-white max-[769px]:py-3">
                     <div>
                         <a href="/" className="font-extrabold text-[1.65rem] max-[426px]:text-[1.5rem]">dev-author.</a>
                     </div>
