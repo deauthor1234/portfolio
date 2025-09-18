@@ -9,6 +9,7 @@ import TechStacks from "./components/TechStacks"
 import WorksSection from "./components/WorksSection"
 import ContactSection from "./components/ContactSection"
 import Footer from "./components/Footer"
+import "/public/fonts/fonts.css"
 
 const App = () => {
   useEffect(() => {
