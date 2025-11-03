@@ -3,6 +3,7 @@ import project2 from "../assets/images/project2.png"
 import project3 from "../assets/images/project3.png"
 import project4 from "../assets/images/project4.png"
 import project5 from "../assets/images/project5.png"
+import project6 from "../assets/images/project6.jpg"
 import Work from "./Work"
 
 const WorksSection = () => {
@@ -52,6 +53,14 @@ const WorksSection = () => {
                         demoHref="https://onlineresumeproject.netlify.app" 
                         des="A one-page responsive online résumé website with sidebar built for showcasing personal profile, skills, experience, and portfolio projects."
                     />
+                    <Work 
+                        img={project6} 
+                        title="Movimeo"
+                        desOnly={true}
+                        tags={["React", "API", "AOS"]} 
+                        repoHref="https://github.com/deauthor1234/movimeo" 
+                        demoHref="https://movimeo-project.netlify.app" 
+                        des="A sleek movie app that lets users explore trending, top-rated, and upcoming films, search & add-to-favorite features, smooth animations, and a responsive design."                    />
                 </div>
             </div>
         </section>
