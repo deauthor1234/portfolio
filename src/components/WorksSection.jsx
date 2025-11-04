@@ -60,7 +60,7 @@ const WorksSection = () => {
                         tags={["React", "API", "AOS"]} 
                         repoHref="https://github.com/deauthor1234/movimeo" 
                         demoHref="https://movimeo-project.netlify.app" 
-                        des="A sleek movie app that lets users explore trending, top-rated, and upcoming films, search & add-to-favorite features, smooth animations, and a responsive design."                    
+                        des="A sleek movie app that lets users explore trending, top-rated & upcoming films, search & add-to-favorite features, smooth animations & responsive design."                    
                     />
                 </div>
             </div>
