@@ -68,7 +68,8 @@ const WorksSection = () => {
                         tags={["React", "TailwindCSS"]}
                         demoHref="https://emmy-john.netlify.app"
                         desOnly={true}
-                        des="A one-page minimalistic portfolio built to showcase my client's skills, works and experience" />
+                        style="pointer-events-none border-gray-400 text-gray-400"
+                        des="A modern one-page and minimalistic portfolio built to showcase my client's skills, works and professsional experience." />
                     </>}
                 </div>
             </div>
