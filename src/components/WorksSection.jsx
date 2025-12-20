@@ -15,7 +15,7 @@ const WorksSection = () => {
         <section className="container-wrapper" id="works">
             <div className="container">
                 <h2 className="section-heading mb-14 max-[426px]:mb-10" data-aos="fade-down">WHAT HAVE I DONE?</h2>
-                <div className="flex mb-8 border w-fit mx-auto">
+                <div className="flex mb-8 border w-fit max-[426px]:w-full max-[426px]:flex mx-auto">
                     <p className={isPersonal ? "work-navlink active" : "work-navlink"} onClick={() => setIsPersonal(true)}>Personal</p>
                     <p className={!isPersonal ? "work-navlink active" : "work-navlink"} onClick={() => setIsPersonal(false)}>Client</p>
                 </div>
