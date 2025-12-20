@@ -9,7 +9,7 @@ import project7 from "../assets/images/project7.png"
 import Work from "./Work"
 
 const WorksSection = () => {
-    const [isPersonal, setIsPersonal] = useState(false)
+    const [isPersonal, setIsPersonal] = useState(true)
 
     return (
         <section className="container-wrapper" id="works">
