@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import profile2 from "../assets/images/profile.jpg";
+import profile2 from "../../public/images/profile.jpg";
 import { BiDownArrowAlt, BiLogoGithub, BiLogoInstagram, BiMailSend } from "react-icons/bi";
 
 const Hero = () => {
