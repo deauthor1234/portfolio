@@ -1,4 +1,4 @@
-import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
+import { BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi"
 import { DiPhotoshop } from "react-icons/di"
 
 const TechStacks = ({ dark }) => {
@@ -11,6 +11,7 @@ const TechStacks = ({ dark }) => {
                 <BiLogoCss3 className="logo" />
                 <BiLogoJavascript className="logo" />
                 <BiLogoReact className="logo" />
+                <BiLogoTypescript className="logo" />
                 <BiLogoTailwindCss className="logo" />
                 <BiLogoGit className="logo" />
                 <BiLogoGithub className="logo" />
@@ -21,6 +22,7 @@ const TechStacks = ({ dark }) => {
                 <BiLogoCss3 className="logo" />
                 <BiLogoJavascript className="logo" />
                 <BiLogoReact className="logo" />
+                <BiLogoTypescript className="logo" />
                 <BiLogoTailwindCss className="logo" />
                 <BiLogoGit className="logo" />
                 <BiLogoGithub className="logo" />

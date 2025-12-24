@@ -1,7 +1,7 @@
 import { FaBriefcase, FaEnvelope } from "react-icons/fa"
 import Btn from "./Btn"
 import { DiPhotoshop } from 'react-icons/di';
-import { BiCodeCurly, BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi"
+import { BiCodeCurly, BiLogoCss3, BiLogoFigma, BiLogoGit, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNetlify, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi"
 
 const AboutSection = () => {
     return (
@@ -19,12 +19,13 @@ const AboutSection = () => {
                         <span data-aos="zoom-in" data-aos-delay="200"><BiLogoCss3 /> Css3</span>
                         <span data-aos="zoom-in" data-aos-delay="300"><BiLogoJavascript /> JavaScript</span>
                         <span data-aos="zoom-in" data-aos-delay="400"><BiLogoReact /> ReactJS</span>
-                        <span data-aos="zoom-in" data-aos-delay="500"><BiLogoTailwindCss /> TailwindCSS</span>
-                        <span data-aos="zoom-in" data-aos-delay="600"><BiLogoGit /> Git</span>
-                        <span data-aos="zoom-in" data-aos-delay="700"><BiLogoGithub /> Github</span>
-                        <span data-aos="zoom-in" data-aos-delay="800"><BiLogoFigma /> Figma</span>
-                        <span data-aos="zoom-in" data-aos-delay="900"><BiLogoNetlify /> Netlify</span>
-                        <span data-aos="zoom-in" data-aos-delay="1000"><DiPhotoshop /> Adobe Photoshop</span>
+                        <span data-aos="zoom-in" data-aos-delay="500"><BiLogoTypescript /> TypeScript</span>
+                        <span data-aos="zoom-in" data-aos-delay="600"><BiLogoTailwindCss /> TailwindCSS</span>
+                        <span data-aos="zoom-in" data-aos-delay="700"><BiLogoGit /> Git</span>
+                        <span data-aos="zoom-in" data-aos-delay="800"><BiLogoGithub /> Github</span>
+                        <span data-aos="zoom-in" data-aos-delay="900"><BiLogoFigma /> Figma</span>
+                        <span data-aos="zoom-in" data-aos-delay="1000"><BiLogoNetlify /> Netlify</span>
+                        <span data-aos="zoom-in" data-aos-delay="1100"><DiPhotoshop /> Adobe Photoshop</span>
                     </div>
                     <div className="flex gap-4 max-[506px]:flex-col" data-aos="fade-up">
                         <Btn to="contact" icon={<FaEnvelope />} dark={true} content="Hire Me" />
