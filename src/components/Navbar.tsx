@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { Link } from "react-scroll";
 
-const sections = ["intro", "about", "services", "works", "contact"];
+const sections: string[] = ["intro", "about", "services", "works", "contact"];
 
 const Navbar = () => {
     const [active, setActive] = useState("intro");

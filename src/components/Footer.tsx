@@ -1,4 +1,4 @@
-import { BiLogoReact, BiLogoTailwindCss, BiPlus } from "react-icons/bi"
+import { BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiPlus } from "react-icons/bi"
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="flex mt-4 gap-4 md:mt-0">
             Built With
             <span className="flex items-center text-white">
-                <BiLogoReact /> <i>React</i> <BiPlus className="mx-2" /> <BiLogoTailwindCss /> <i>Tailwind</i>
+                <BiLogoReact /> <i>React</i> <BiPlus className="mx-2" /> <BiLogoTailwindCss /> <i>Tailwind</i> <BiPlus className="mx-2" /> <BiLogoTypescript /> <i>TypeScript</i>
             </span>
         </p>
       </div>
