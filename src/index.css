@@ -14,7 +14,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden select-none;
 }
 
 .container-wrapper {
@@ -93,10 +93,6 @@ section.container-wrapper {
 
 .skill-cat-heading {
     @apply text-xl font-bold mb-3;
-}
-
-.skill-list {
-    @apply flex mb-4 ml-2 font-medium gap-4 flex-wrap;
 }
 
 .service {
