@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import { BiDownArrowAlt, BiLogoGithub, BiLogoInstagram, BiMailSend } from "react-icons/bi";
+import profile from "../assets/images/profile.jpg"
 
 const Hero = () => {
     return (
@@ -17,7 +18,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="max-[950px]:hidden min-w-[25rem] min-h-[25rem] max-[1200px]:min-w-[22rem] max-[1200px]:min-h-[22rem] rounded-4xl overflow-hidden relative rotate-y-180">
-                    <img src="/profile.jpg" alt="profile" className="size-full object-cover absolute" data-aos="zoom-out" />
+                    <img src={profile} alt="profile" className="size-full object-cover absolute" data-aos="zoom-out" />
                 </div>
             </div>
             <Link to="about" smooth={true} className="animate-bounce cursor-pointer size-16 max-[412px]:size-14 flex justify-center items-center shadow-2xl text-xl rounded-full absolute bg-white bottom-4 left-[50%] translate-x-[-50%]">
