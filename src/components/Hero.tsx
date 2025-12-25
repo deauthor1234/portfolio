@@ -4,7 +4,8 @@ import profile from "../assets/images/profile.jpg"
 
 const Hero = () => {
     return (
-        <header className="container-wrapper items-center relative min-[950px]:min-h-[40rem] min-[950px]:max-h-[1080px] bg-linear-to-b from-transparent to-gray-200" id="intro">
+        <header className="container-wrapper items-center relative min-[950px]:min-h-[40rem]
+        min-[950px]:max-h-[1080px]bg-linear-to-b from-transparent to-gray-200" id="intro">
             <div className="flex justify-between items-center max-[950px]:py-36 max-[412px]:py-32 max-[321px]:pt-28 container gap-10">
                 <div className="size-full">
                     <h2 className="font-bold text-2xl max-[1200px]:text-xl max-[412px]:text-base" data-aos="fade-right">Hello!</h2>

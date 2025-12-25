@@ -75,12 +75,24 @@ section.container-wrapper {
     @apply mx-24 max-[1025px]:mx-16 max-[426px]:mx-12;
 }
 
+.about-tech-stack {
+    @apply flex ml-2 font-medium gap-4 flex-wrap;
+}
+
 .about-tech-stack span {
     @apply border px-3 py-1 flex items-center;
 }
 
 .about-tech-stack span svg {
     @apply text-2xl mr-2;
+}
+
+.skill-cat-heading {
+    @apply text-xl font-bold mb-3;
+}
+
+.skill-list {
+    @apply flex mb-4 ml-2 font-medium gap-4 flex-wrap;
 }
 
 .service {
