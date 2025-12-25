@@ -9,7 +9,7 @@ type WorkProps = {
     repoHref?: string,
     tags: string[],
     title: string,
-    style?: string
+    style?: "hidden"
 }
 
 const Work = ({ demoHref, des, img, desOnly, repoHref, tags, title, style }: WorkProps) => {

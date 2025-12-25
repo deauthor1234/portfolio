@@ -5,7 +5,7 @@ import project3 from "../assets/images/project3.png"
 import project4 from "../assets/images/project4.png"
 import project5 from "../assets/images/project5.jpg"
 import project6 from "../assets/images/project6.jpg"
-import project7 from "../assets/images/project7.png"
+import project7 from "../assets/images/project7.jpg"
 import Work from "./Work"
 
 const WorksSection = () => {
@@ -68,7 +68,7 @@ const WorksSection = () => {
                         tags={["React", "TailwindCSS"]}
                         demoHref="https://emmy-john.netlify.app"
                         desOnly={true}
-                        style="pointer-events-none border-gray-400 text-gray-400"
+                        style="hidden"
                         des="A modern one-page and minimalistic portfolio built to showcase my client's skills, works and professsional experience." />
                     </>}
                 </div>
