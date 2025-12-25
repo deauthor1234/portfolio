@@ -10,7 +10,11 @@ const Footer = () => {
         <p className="flex mt-4 gap-4 md:mt-0">
             Built With
             <span className="flex items-center text-white">
-                <BiLogoReact /> <i>React</i> <BiPlus className="mx-2" /> <BiLogoTailwindCss /> <i>Tailwind</i> <BiPlus className="mx-2" /> <BiLogoTypescript /> <i>TypeScript</i>
+                <BiLogoReact className="max-[400px]:text-2xl" /><i className="max-[400px]:hidden">React</i>
+                <BiPlus className="mx-2" />
+                <BiLogoTailwindCss className="max-[400px]:text-2xl" /> <i className="max-[400px]:hidden">Tailwind</i>
+                <BiPlus className="mx-2" />
+                <BiLogoTypescript className="max-[400px]:text-2xl" /> <i className="max-[400px]:hidden">TypeScript</i>
             </span>
         </p>
       </div>
