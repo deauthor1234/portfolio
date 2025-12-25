@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { Link } from "react-scroll";
 
-const sections: string[] = ["intro", "about", "services", "works", "contact"];
+const sections = ["intro", "about", "services", "works", "contact"] as const;
 
 const Navbar = () => {
-    const [active, setActive] = useState("intro");
+    const [active, setActive] = useState<string>("intro");
 
     useEffect(() => {
         const sectionElements = sections.map(id => document.getElementById(id));
@@ -28,7 +28,7 @@ const Navbar = () => {
         };
     }, []); 
 
-    const [navVisibility, setNavVisibility] = useState(false)
+    const [navVisibility, setNavVisibility] = useState<boolean>(false)
 
     return (
         <nav className="container-wrapper z-[9999] fixed w-full bg-white" data-aos="fade-down" onMouseLeave={() => setNavVisibility(false)}>
