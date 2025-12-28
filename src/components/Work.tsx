@@ -10,11 +10,12 @@ type WorkProps = {
     tags: string[],
     title: string,
     style?: "hidden"
+    id: string
 }
 
-const Work = ({ demoHref, des, img, desOnly, repoHref, tags, title, style }: WorkProps) => {
+const Work = ({ demoHref, des, img, desOnly, repoHref, tags, title, style, id }: WorkProps) => {
     return (
-        <div className="project" data-aos="fade-up">
+        <div className="project" data-aos="fade-up" key={id}>
             <div className="image">
                 <img className="project-img" src={img} alt={`${img}-image`} />
                 <a className="project-img-link" onClick={() => window.open(img)}><FaExternalLinkAlt /></a>
