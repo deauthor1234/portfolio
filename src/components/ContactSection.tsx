@@ -1,4 +1,4 @@
-import { BiLogoGithub, BiLogoInstagramAlt, BiMailSend, BiSolidEnvelope, BiSolidPhone } from "react-icons/bi"
+import { BiLogoGithub, BiLogoLinkedinSquare, BiMailSend, BiSolidEnvelope, BiSolidPhone } from "react-icons/bi"
 import ContactMedium from "./ContactMedium"
 
 const ContactSection = () => {
@@ -10,7 +10,7 @@ const ContactSection = () => {
                     <div className="flex flex-wrap text-2xl font-medium gap-4 ">
                         <ContactMedium delay="600" href="mailto:dimejioladapo573@gmail.com" icon={<BiSolidEnvelope />} label="Email" />
                         <ContactMedium delay="800" href="tel: +2349163147101" icon={<BiSolidPhone />} label="Phone" />
-                        <ContactMedium delay="1000" href="https://www.instagram.com/authority.dev" icon={<BiLogoInstagramAlt />} label="Instagram" />
+                        <ContactMedium delay="1000" href="https://www.linkedin.com/in/oladapo-authority-7802103a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" icon={<BiLogoLinkedinSquare />} label="LinkedIn" />
                         <ContactMedium delay="1200" href="https://github.com/deauthor1234" icon={<BiLogoGithub />} label="Github" />
                     </div>    
                 </div>

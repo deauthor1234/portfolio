@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { BiDownArrowAlt, BiLogoGithub, BiLogoInstagram, BiMailSend } from "react-icons/bi";
+import { BiDownArrowAlt, BiLogoGithub, BiLogoLinkedinSquare, BiMailSend } from "react-icons/bi";
 import profile from "../assets/images/profile.jpg"
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
                     <h3 className="font-bold text-4xl max-[1200px]:text-3xl max-[550px]:text-2xl max-[412px]:text-xl" data-aos="fade-right" data-aos-delay="400">Front-End Web Developer</h3>
                     <h2 className="text-[1.1rem] max-[412px]:text-base mt-6 mb-8 font-medium italic max-w-[80%] text-gray-800" data-aos="fade-left" data-aos-delay="600">I craft modern, responsive web experiences that blend clean design with powerful functionality.</h2>
                     <div className="flex font-extrabold text-[2.6rem] max-[412px]:text-[2.4rem] gap-6">
-                        <a className="group" href="https://www.instagram.com/authority.dev/" data-aos="zoom-in" data-aos-delay="800"><BiLogoInstagram className="group-hover:scale-115 duration-150" /></a>
+                        <a className="group" href="https://www.linkedin.com/in/oladapo-authority-7802103a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" data-aos="zoom-in" data-aos-delay="800"><BiLogoLinkedinSquare className="group-hover:scale-115 duration-150" /></a>
                         <a className="group" href="https://github.com/deauthor1234" data-aos="zoom-in" data-aos-delay="1000"><BiLogoGithub className="group-hover:scale-115 duration-150" /></a>
                         <a className="group" href="mailto:dimejioladapo573@gmail.com" data-aos="zoom-in" data-aos-delay="1200"><BiMailSend className="group-hover:scale-115 duration-150" /></a>
                     </div>
